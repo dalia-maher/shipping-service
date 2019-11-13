@@ -1,11 +1,11 @@
 {
-  "name": "shipping-service",
+  "name": "shipping-service-21",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "node src/app.js"
+    "test": "jest tests",
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,10 @@
     "url": "https://github.com/dalia-maher/shipping-service/issues"
   },
   "homepage": "https://github.com/dalia-maher/shipping-service#readme",
+  "engines": {
+    "node": "8.11.3",
+    "npm": "5.6.0"
+  },
   "devDependencies": {
     "nock": "^11.7.0",
     "sinon": "^7.5.0"
